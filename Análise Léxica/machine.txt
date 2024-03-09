@@ -1,0 +1,23 @@
+q0,q1,q2,q3,q4,q5,q6,q7,q8,q9,q10,q11,q12,q13
++-._0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+q10:positive integer,q12:positive float,q1:positive integer,q3:positive float,q4:negative integer,q6:negative float,q9:var,q8:var
+q0:+:q7
+q0:0123456789:q1
+q0:-:q4
+q0:ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz:q8
+q0:_:q9
+q0:!/@.:q13
+q7:0123456789:q10
+q10:.:q11
+q11:0123456789:q12
+q1:0123456789:q1
+q1:.:q2
+q1:!@_ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz:q13
+q2:0123456789:q3
+q3:0123456789:q3
+q4:0123456789:q4:
+q4:.:q5
+q5:0123456789:q6
+q8:_0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz:q8
+q9:_:q9
+q9:0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz:q8

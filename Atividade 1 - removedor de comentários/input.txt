@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+/* código a ser tratado para remover os comentários */
+
+int main() {
+  int num1, num2, soma;
+
+  /* Solicita ao usuario
+  para inserir o primeiro numero */
+  printf("Digite o primeiro numero: ");
+  scanf("%d", &num1);
+
+  /* Solicita ao usuário
+  para inserir o segundo numero */
+  printf("Digite o segundo numero: ");
+  scanf("%d", &num2);
+
+  // Calcula a soma dos numeros
+  soma = num1 + num2;
+
+  printf("A soma de %d e %d eh %d.\n", num1, num2, soma); // Imprime a soma
+
+  return 0;
+}
